@@ -20,6 +20,13 @@ And the code does the magic.
 | CHN      | 2    |  2    |  2     | 2024-08-03 16:00:18 | 2024-08-01 16:02:18 | 2024-08-01 16:22:18 |
 
 
+| Feature.                                                             | Dart/Flutter | JavaScript/React |
+| ---                                                                  | ---          | ---              |
+| [Responsive](./package/lib/responsive/responsive.md)                 | ✅           | ❌               |
+| [breakpoints](./package/lib/breakpoints/breakpoints.md)              | ✅           | ✅               |
+| [GridItem](./package/lib/grid-item/grid_item.md)                     | ✅           | 🚧               |
+| [BreakpointsBaseValues](./package/lib/breakpoints/breakpoints.md)    | ✅           | 🚧               |
+
 
 ### Principal Code 🗺️ 
 
