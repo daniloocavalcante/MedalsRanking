@@ -1,0 +1,110 @@
+// INPUT 
+
+//JSON MIN
+{"name": "Medal Tables","game": "Olympic Game","members": {"BRA": {"name": "Brasil","gold": 1,"silver": 4,"bronze": 4,"last_gold_at": "2024-07-29 16:02:18","last_silver_at": "2024-08-02 16:04:18","last_bronze_at": "2024-08-03 16:02:18"},"USA": {"name": "Estados Unidos","gold": 1,"silver": 4,"bronze": 4,"last_gold_at": "2024-07-29 16:02:18","last_silver_at": "2024-08-02 16:50:18","last_bronze_at": "2024-08-01 16:30:18"},"FRA": {"name": "França","gold": 5,"silver": 1,"bronze": 2,"last_gold_at": "2024-07-30 16:00:18","last_silver_at": "2024-07-30 16:09:18","last_bronze_at": "2024-07-30 16:21:18"},"CAN": {"name": "Canadá","gold": 3,"silver": 1,"bronze": 0,"last_gold_at": "2024-07-31 16:00:18","last_silver_at": "2024-07-31 16:02:18","last_bronze_at": "2024-07-31 16:22:18"},"CHN": {"name": "China","gold": 1,"silver": 4,"bronze": 4,"last_gold_at": "2024-08-03 16:00:18","last_silver_at": "2024-08-01 16:02:18","last_bronze_at": "2024-08-01 16:22:18"}}}
+
+
+//JSON FULL
+{
+    "name": "Medal Tables",
+    "game": "Olympic Game",
+    "members": {
+        "BRA": {
+            "name": "Brasil",
+            "gold": 1,
+            "silver": 4,
+            "bronze": 4,
+            "last_gold_at": "2024-07-29 16:02:18",
+            "last_silver_at": "2024-08-02 16:04:18",
+            "last_bronze_at": "2024-08-03 16:02:18"
+        },
+        "USA": {
+            "name": "Estados Unidos",
+            "gold": 1,
+            "silver": 4,
+            "bronze": 4,
+            "last_gold_at": "2024-07-29 16:02:18",
+            "last_silver_at": "2024-08-02 16:50:18",
+            "last_bronze_at": "2024-08-01 16:30:18"
+        },
+        "FRA": {
+            "name": "França",
+            "gold": 5,
+            "silver": 1,
+            "bronze": 2,
+            "last_gold_at": "2024-07-30 16:00:18",
+            "last_silver_at": "2024-07-30 16:09:18",
+            "last_bronze_at": "2024-07-30 16:21:18"
+        },
+        "CAN": {
+            "name": "Canadá",
+            "gold": 3,
+            "silver": 1,
+            "bronze": 0,
+            "last_gold_at": "2024-07-31 16:00:18",
+            "last_silver_at": "2024-07-31 16:02:18",
+            "last_bronze_at": "2024-07-31 16:22:18"
+        },
+        "CHN": {
+            "name": "China",
+            "gold": 1,
+            "silver": 4,
+            "bronze": 4,
+            "last_gold_at": "2024-08-03 16:00:18",
+            "last_silver_at": "2024-08-01 16:02:18",
+            "last_bronze_at": "2024-08-01 16:22:18"
+        }
+    }
+}
+
+
+
+// OUTPUT 
+
+{
+    "FRA": {
+        "name": "França",
+        "gold": 5,
+        "silver": 1,
+        "bronze": 2,
+        "last_gold_at": "2024-07-30 16:00:18",
+        "last_silver_at": "2024-07-30 16:09:18",
+        "last_bronze_at": "2024-07-30 16:21:18"
+    },
+    "CAN": {
+        "name": "Canadá",
+        "gold": 3,
+        "silver": 1,
+        "bronze": 0,
+        "last_gold_at": "2024-07-31 16:00:18",
+        "last_silver_at": "2024-07-31 16:02:18",
+        "last_bronze_at": "2024-07-31 16:22:18"
+    },
+    "BRA": {
+        "name": "Brasil",
+        "gold": 1,
+        "silver": 4,
+        "bronze": 4,
+        "last_gold_at": "2024-07-29 16:02:18",
+        "last_silver_at": "2024-08-02 16:04:18",
+        "last_bronze_at": "2024-08-03 16:02:18"
+    },
+    "USA": {
+        "name": "Estados Unidos",
+        "gold": 1,
+        "silver": 4,
+        "bronze": 4,
+        "last_gold_at": "2024-07-29 16:02:18",
+        "last_silver_at": "2024-08-02 16:50:18",
+        "last_bronze_at": "2024-08-01 16:30:18"
+    },
+    "CHN": {
+        "name": "China",
+        "gold": 1,
+        "silver": 4,
+        "bronze": 4,
+        "last_gold_at": "2024-08-03 16:00:18",
+        "last_silver_at": "2024-08-01 16:02:18",
+        "last_bronze_at": "2024-08-01 16:22:18"
+    }
+}
