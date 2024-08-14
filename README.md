@@ -10,7 +10,7 @@ And the code does the magic.
 - [IOC CODE](https://en.wikipedia.org/wiki/List_of_IOC_country_codes)
 
 
-### Member Table Example
+## Member Table Example
 
 | IOC_CODE | Gold | Silver| Bronze | last_gold_at        | last_silver_at      | last_bronze_at      |
 | ---      |  --- | ---   | ---    | ---                 | ---                 | ---                 |
@@ -21,7 +21,7 @@ And the code does the magic.
 | CHN      | 2    |  2    |  2     | 2024-08-03 16:00:18 | 2024-08-01 16:02:18 | 2024-08-01 16:22:18 |
 
 
-### Principal Code 🗺️ 
+## Principal Code 🗺️ 
 
 Below you will see the magic code.
 
@@ -59,7 +59,7 @@ $json = json_decode(@$request->json_input);
 ```
 
 
-### Contributing
+## Contributing
 
 Feel free to contribute the code :)
 
