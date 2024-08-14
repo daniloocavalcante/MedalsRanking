@@ -12,7 +12,7 @@ And the code does the magic.
 
 ### Member Table Example
 
-| IOC_CODE | Gold | Silver| Bronze | last_gold_at        | last_silver_at      | last_bronze_at      |
+| IOC_CODE   | Gold | Silver| Bronze | last_gold_at        | last_silver_at      | last_bronze_at      |
 | [BRA]      | 1    |  2    |  2     | 2024-07-29 16:02:18 | 2024-08-02 16:04:18 | 2024-08-10 16:02:18 |
 | [USA]      | 2    |  2    |  2     | 2024-07-29 16:02:18 | 2024-08-02 16:50:18 | 2024-08-01 16:30:18 |
 | [FRA]      | 2    |  2    |  2     | 2024-07-30 16:00:18 | 2024-07-30 16:09:18 | 2024-07-30 16:21:18 |
@@ -22,7 +22,7 @@ And the code does the magic.
 
 | Feature.                                                             | Dart/Flutter | JavaScript/React |
 | ---                                                                  | ---          | ---              |
-| [Responsive](./package/lib/responsive/responsive.md)                 | ✅           | ❌              |
+| [Responsive](./package/lib/responsive/responsive.md)                 | ✅      | ❌              |
 | [breakpoints](./package/lib/breakpoints/breakpoints.md)              | ✅           | ✅              |
 | [GridItem](./package/lib/grid-item/grid_item.md)                     | ✅           | 🚧              |
 | [BreakpointsBaseValues](./package/lib/breakpoints/breakpoints.md)    | ✅           | 🚧              |
