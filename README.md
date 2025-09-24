@@ -1,10 +1,7 @@
 # Medals Ranking
 
 ## What is it?
-My code is responsible for organizing a medal ranking of olympic games.
-The correct way to organize is by the number of gold, silver and the bronze medals.
-Basically, you must insert a json aleatory input and click in the button Rank Now.
-And the code does the magic.
+My code is responsible for generating an Olympic medal ranking. The standard sorting criteria is by the number of gold, silver, and then bronze medals. To use it, simply insert a JSON input with the results and click the 'Rank Now' button. The code handles the rest.
 
 ## Useful Link
 - [IOC CODE](https://en.wikipedia.org/wiki/List_of_IOC_country_codes)
@@ -62,5 +59,6 @@ $json = json_decode(@$request->json_input);
 ## Contributing
 
 Feel free to contribute the code :)
+
 
 
