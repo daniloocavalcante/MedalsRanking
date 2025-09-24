@@ -21,7 +21,7 @@ And the code does the magic.
 | CHN      | 2    |  2    |  2     | 2024-08-03 16:00:18 | 2024-08-01 16:02:18 | 2024-08-01 16:22:18 |
 
 
-## Principal Code 🗺️ 
+## Main Code 🗺️ 
 
 Below you will see the magic code.
 
@@ -62,4 +62,5 @@ $json = json_decode(@$request->json_input);
 ## Contributing
 
 Feel free to contribute the code :)
+
 
